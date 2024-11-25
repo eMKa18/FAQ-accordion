@@ -5,7 +5,8 @@
 
     --background-mobile: "./assets/images/background-pattern-mobile.svg";
     --background-desktop: "./assets/images/background-pattern-desktop.svg";
-    --background-primary: #f7ebff
+    --background-primary: #f7ebff;
+    --text-primary: #39243c;
 }
 
 body {
@@ -29,7 +30,7 @@ li {
 h1 {
     font-size: calc(var(--font-size-normal) * 2);
     padding-left: 1rem;
-    color: #39243c;
+    color: var(--text-primary);
 }
 
 h2 {
@@ -42,7 +43,11 @@ p {
 
 .title {
     display: flex;
+    margin-left: 1rem;
+}
 
+.star {
+    scale: 75%;
 }
 
 .main-container {
@@ -71,11 +76,12 @@ p {
     display: flex;
     gap: 1rem;
     align-items: center;
+    padding-left: 1rem;
 }
 
 .expander {
-    justify-self: end;
     margin-right: 1rem;
+    margin-left: auto;
 }
 
 .attribution { 
