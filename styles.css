@@ -1,0 +1,26 @@
+:root {
+    --font-size-normal: 18px;
+    --font-size-medium: 16px;
+    --font-size-small: 14px
+}
+
+h1 {
+    font-size: var(--font-size-normal);
+}
+
+h2 {
+    font-size: var(--font-size-medium);
+}
+
+p {
+    font-size: var(--font-size-small);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding-top: 1rem;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
