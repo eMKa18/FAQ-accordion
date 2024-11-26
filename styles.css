@@ -79,9 +79,25 @@ p {
     padding-left: 1rem;
 }
 
-.expander {
+.expanders-container {
     margin-right: 1rem;
     margin-left: auto;
+}
+
+.expander {
+    min-width: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+.plus:hover path {
+    fill: #39243c;
+}
+
+.minus:hover path {
+    fill: #ad28eb;
 }
 
 .attribution { 
