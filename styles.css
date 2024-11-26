@@ -9,6 +9,11 @@
     --text-primary: #39243c;
 }
 
+@font-face {
+    font-family: 'WorkSans';
+    src: url(assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+
 body {
     width: 100%vw;
     height: 100%vh;
@@ -16,6 +21,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--background-primary);
+    font-family: 'WorkSans';
 }
 
 ul {
@@ -35,6 +41,10 @@ h1 {
 
 h2 {
     font-size: var(--font-size-medium);
+}
+
+h2:hover {
+    color: #ad28eb;
 }
 
 p {
@@ -70,6 +80,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: start;
+    box-shadow: 0 0.5rem 0.125rem 0 #f4e5fa;
 }
 
 .question-container {
@@ -98,6 +109,12 @@ p {
 
 .minus:hover path {
     fill: #ad28eb;
+}
+
+.answer {
+    margin: auto 1rem;
+    color: #351738;
+    font-weight: 300;
 }
 
 .attribution { 
